@@ -1,7 +1,7 @@
 name: mobile_feature_access
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Niranjantk/mobile_feature_access
 
 environment:
   sdk: ^3.9.2

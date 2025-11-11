@@ -1,15 +1,27 @@
 # mobile_feature_access
 
-A new Flutter plugin project.
+A Flutter plugin to access native Android features such as:
 
-## Getting Started
+✅ Platform Version  
+✅ Battery Level  
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+This package provides a simple communication bridge between Flutter (Dart) and the native Android system using MethodChannels. More features will be added in future updates such as connectivity status, vibration, brightness control, and more.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## ✨ Features
+
+| Feature | Android | iOS |
+|--------|:------:|:---:|
+| Get Platform Version | ✅ | 🚧 Coming Soon |
+| Get Battery Level | ✅ | 🚧 Coming Soon |
+
+---
+
+## 📦 Installation
+
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  mobile_feature_access: ^0.0.1
