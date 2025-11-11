@@ -1,5 +1,5 @@
 name: mobile_feature_access
-description: "A new Flutter plugin project."
+description: "Mobile Feature Access is a Flutter plugin that connects your Flutter app with native Android functionality using MethodChannels. It currently provides platform version and battery level access with more system-level features planned — such as connectivity status, vibration control, sensors, and device settings interaction.."
 version: 0.0.1
 homepage: https://github.com/Niranjantk/mobile_feature_access
 
