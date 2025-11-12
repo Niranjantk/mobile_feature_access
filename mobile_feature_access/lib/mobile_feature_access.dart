@@ -8,4 +8,11 @@ class MobileFeatureAccess {
    Future<num?> getBatteryLevel() {
     return MobileFeatureAccessPlatform.instance.getBatteryLevel();
   }
+   Future<String?> getDeviceName() {
+    return MobileFeatureAccessPlatform.instance.getDeviceName();
+  }
+  Future<Map<String, dynamic>?> getDeviceSpecs() {
+  return MobileFeatureAccessPlatform.instance.getDeviceSpecs();
+}
+
 }

@@ -29,4 +29,11 @@ abstract class MobileFeatureAccessPlatform extends PlatformInterface {
   Future<num?> getBatteryLevel() {
     throw UnimplementedError('getBatteryLevel() has not been implemented.');
   }
+  Future<String?> getDeviceName() {
+    throw UnimplementedError('getDeviceName() has not been implemented.');
+  }
+  Future<Map<String, dynamic>?> getDeviceSpecs() {
+  throw UnimplementedError('getDeviceSpecs() has not been implemented.');
+}
+
 }
